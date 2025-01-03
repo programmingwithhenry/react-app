@@ -1,0 +1,130 @@
+/* Global Styles for the About Page */
+.about-page {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container for the page content */
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  /* Title and heading styles */
+  .about-page h1 {
+    font-size: 36px;
+    color: #00796b;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Paragraph styles */
+  .about-page p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  /* About Section Styles */
+  .about-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .about-section img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-section .about-text {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .about-section .about-text h2 {
+    font-size: 28px;
+    color: #00796b;
+    margin-bottom: 10px;
+  }
+  
+  .about-section .about-text ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  .about-section .about-text ul li {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer style for About Page */
+  .about-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #00796b;
+    color: white;
+    margin-top: 40px;
+    border-radius: 10px;
+  }
+  
+  .about-footer p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  /* Responsive Design for Mobile */
+  @media (max-width: 768px) {
+    .about-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .about-section img {
+      max-width: 80%;
+    }
+  
+    .about-section .about-text {
+      padding: 0;
+    }
+  
+    .about-page h1 {
+      font-size: 30px;
+    }
+  
+    .about-page p {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-page {
+      padding: 20px;
+    }
+  
+    .about-page h1 {
+      font-size: 28px;
+    }
+  
+    .about-page p {
+      font-size: 14px;
+    }
+  }
+  

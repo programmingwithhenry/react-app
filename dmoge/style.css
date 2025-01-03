@@ -1,0 +1,35 @@
+/* src/pages/Home.css */
+.home {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .slideshow {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .slideshow img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .slideshow img.active {
+    opacity: 1;
+  }
+  
+  .slideshow img.inactive {
+    opacity: 0;
+  }
+  
